@@ -1,0 +1,61 @@
+.header{
+    background-image: url(book1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+nav{
+    display: flex;
+}
+.nav-links{
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+}
+.nav-links li{
+    display: inline-block;
+    padding-left: 20px;
+}
+.nav-links a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+.nav-links a:hover{
+    color: yellow;
+}
+.head{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+}
+.motto{
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+}
+.info{
+    color: black;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  .sub{
+    text-align: center;
+    color: white;
+    padding-top: 50px;   
+  }
+  .footer{
+    background-color: rgb(95, 1, 1);
+    text-align: center;
+    color: white;
+}
+
+
+  
+
+  
+  
